@@ -1,0 +1,25 @@
+{
+    "name": "simple-eventbus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+        "ci:test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage=true"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dodgeblaster/simple-eventbus.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dodgeblaster/simple-eventbus/issues"
+    },
+    "homepage": "https://github.com/dodgeblaster/simple-eventbus#readme",
+    "devDependencies": {
+        "jest": "^28.1.1"
+    }
+}
