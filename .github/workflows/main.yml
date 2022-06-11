@@ -30,4 +30,8 @@ jobs:
         run: |
           npm i
           npm run ci:test
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          greater-version-only: true
 
